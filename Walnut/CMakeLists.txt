@@ -40,8 +40,7 @@ target_sources(${PROJECT_NAME}
         src/Walnut/Input/Input.cpp
 )
 
-target_link_libraries(${PROJECT_NAME}
-    PUBLIC
+target_link_libraries(${PROJECT_NAME} PUBLIC
         glm::glm
         imgui::imgui
         stb::stb
